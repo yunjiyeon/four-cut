@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="main.css">
+  <script defer src="main.js"></script>
+</head>
+<body>
+  <div class="container">
+    <div class="photos">
+      <div id="image1" class="photo-frame" onmouseover="showText(1)" onmouseout="hideText(1)" onclick="alertText(1)">
+        <span id="desc1" class="photo_description">
+          수호 자는 중 💤
+        </span>
+      </div>
+      <div id="image2" class="photo-frame" onmouseover="showText(2)" onmouseout="hideText(2)" onclick="alertText(2)">
+        <span id="desc2" class="photo_description">
+          아침 체조 수호 😚
+        </span>
+      </div>
+      <div id="image3" class="photo-frame" onmouseover="showText(3)" onmouseout="hideText(3)" onclick="alertText(3)">
+        <span id="desc3" class="photo_description">
+          7979 😎
+        </span>
+      </div>
+      <div class="photo-frame">
+        <iframe class="video" src="https://www.youtube.com/embed/eirnMOx_ZFI" title="YouTube video player" frameborder="0"></iframe>
+      </div>
+    </div>
+    <div class="footer">
+      <p class="f-title">약한 영웅 Class 1</p>
+      <p class="f-date">2023.03</p>
+    </div>
+  </div>
+</body>
+</html>

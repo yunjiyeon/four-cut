@@ -1,0 +1,96 @@
+@font-face {
+  font-family: 'Dovemayo_gothic';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302@1.1/Dovemayo_gothic.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family : 'Dovemayo_gothic';
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  background-image: url('./background.jpeg');
+  background-size: cover;
+  background-position: center;
+}
+
+.container {
+  width: 390px;
+  height: 100%;
+  background-color: #000000;
+}
+
+.photos {
+  margin-top: 30px;
+}
+
+.photo-frame {
+  background-color: white;
+  margin: 15px 20px;
+  height: 200px;
+  background-size: cover;
+  position: relative;
+}
+
+#image1 {
+  background-image: url(./image1.jpeg);
+}
+
+#image2 {
+  background-image: url(./image2.jpg);
+}
+
+#image3 {
+  background-image: url(./image3.jpeg);
+}
+
+#image4 {
+  background-image: url(./image4.jpeg);
+}
+
+.photo_description {
+  color: white;
+  background-color: #000000;
+  width: fit-content;
+  padding: 3px 20px;
+  margin-bottom: 10px;
+  border-radius: 20px;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%);
+  opacity: 0;
+}
+
+.video {
+  width: 100%;
+  height: 100%;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.f-title {
+  color: white;
+  font-size: 25px;
+  font-weight: 900;
+}
+
+.f-date {
+  color: white;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.showText {
+  opacity: 1;
+}
+
+.hideText {
+  opacity: 0;
+  transition: opacity 0.5s linear;
+}
